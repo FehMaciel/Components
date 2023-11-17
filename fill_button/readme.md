@@ -4,9 +4,9 @@ This repository contains an example implementation of a button with a fill effec
 Demo
 Button with Fill Effect Demo
 
-Screenshots
-<img src="Captura de tela 2023-11-16 224034.png">
-<img src="Captura de tela 2023-11-16 224047.png">
+
+<img src="Captura de tela 2023-11-16 224034.png" width="250px">
+<img src="Captura de tela 2023-11-16 224047.png" width="250px">
 
 Description
 The button features an attractive visual effect where the button color smoothly expands when clicked, providing a filling sensation. This can be used to enhance interactivity and user experience in your projects.
