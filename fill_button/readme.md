@@ -3,7 +3,7 @@ This repository contains an example implementation of a button with a fill effec
 
 Demo
 Button with Fill Effect Demo
-<video src="[Document.mp4](https://github.com/FehMaciel/Components/blob/main/fill_button/Document.mp4)"></video>
+https://github.com/FehMaciel/Components/blob/main/fill_button/Document.mp4
 
 <img src="Captura de tela 2023-11-16 224034.png" width="250px">
 <img src="Captura de tela 2023-11-16 224047.png" width="250px">
