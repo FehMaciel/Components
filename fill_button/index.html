@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+      div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+      }
+
+      .container-button {
+        /* Cria um conteiner para o efeito 
+        não sair do elemento */
+        position: relative;
+        width: 160px;
+        height: 40px;
+      }
+    
+      button.btn-read {
+        /* Define o tamanho do botão */
+        width: 160px;
+        height: 40px;
+        /* Define para sem borda */
+        border: none;
+        /* Arredonda os cantos */
+        border-radius: 8px;
+        /* Define a fonte sans-serif */
+        font-family: sans-serif;
+        /* Define o cursor do mouse */
+        cursor: pointer;
+      }
+
+      .btn-read {
+        /* Define o botão como relative */
+        position: relative;
+        /* Define a cor de fundo do botão */
+        background: #202a25;
+        /* Define a cor do texto */
+        color: #ffffff;
+        /* Define a fonte */
+        font-size: 10pt;
+        /* Define a posição */
+        z-index: 1;
+        /* Define o efeito de sombra */
+        box-shadow: 5px 5px 50px #838383;
+      }
+
+      /* Cria o efeito apos o botão */
+      .btn-read::after {
+        content: "";
+        /* Define o botão como absolute */
+        position: absolute;
+        /* Define a posição */
+        top: 0;
+        left: 0;
+        /* Define o tamanho */
+        /* 0 para o botão ficar escondido */
+        width: 0;
+        height: 100%;
+        /* Define a cor de fundo */
+        background-color: #5f4bb6;
+        /* Arredonda os cantos */
+        border-radius: 8px;
+        /* Define o efeito de transicao */
+        transition: width 0.3s ease-in;
+        z-index: -1;
+      }
+
+      .btn-read:hover::after {
+        /* Define o tamanho da animacão 100% */
+        width: 100%;
+        /* Define a sombra */
+        box-shadow: 5px 5px 20px #5f4bb6;
+      }
+
+      
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="container-button">
+        <button class="btn-read">Saiba Mais</button>
+      </div>
+    </div>
+  </body>
+</html>
